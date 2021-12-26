@@ -1,0 +1,65 @@
+markdown: redcarpet
+name: 18F Open Source Style Guide
+exclude:
+- CONTRIBUTING.md
+- Gemfile
+- Gemfile.lock
+- LICENSE.md
+- README.md
+- go
+
+permalink: pretty
+highlighter: rouge
+
+sass:
+  style: :compressed
+
+# Author/Organization info to be displayed in the templates
+author:
+  name: 18F
+  url: https://18f.gsa.gov
+
+# Point the logo URL at a file in your repo or hosted elsewhere by your organization
+logourl: /assets/img/18f-logo.png
+logoalt: 18F logo
+
+# Navigation
+# List links that should appear in the site sidebar here
+navigation:
+- text: Introduction
+  url: index.html
+  internal: true
+- text: Naming your project
+  url: naming-your-project/
+  internal: true
+- text: Making repo descriptions short and clear
+  url: writing-the-repo-description/
+  internal: true
+- text: Making READMEs readable
+  url: making-readmes-readable/
+  internal: true
+- text: Writing clear and concise issues
+  url: writing-clear-and-concise-issues/
+  internal: true
+- text: Best practices for using the wiki
+  url: using-the-wiki/
+  internal: true
+- text: GitHub repo checklist
+  url: github-repo-checklist/
+  internal: true
+
+repos:
+- name: 18F Open Source Style Guide
+  description: Main repository
+  url: https://github.com/18F/open-source-guide
+
+back_link:
+  url: "https://pages.18f.gov/guides/"
+  text: Read more 18F Guides
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "guides_style_18f_default"
